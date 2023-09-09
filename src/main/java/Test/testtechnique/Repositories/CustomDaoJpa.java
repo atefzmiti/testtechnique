@@ -1,0 +1,12 @@
+package Test.testtechnique.Repositories;
+
+import Test.testtechnique.entities.Custom;
+import Test.testtechnique.entities.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+
+@RepositoryRestResource
+public interface CustomDaoJpa extends JpaRepository<Custom,Long> {
+
+
+}
